@@ -1,7 +1,27 @@
+/* 1128 line css code */
+
 body{
-	font-family: 'Poppins', sans-serif;;
+	font-family: 'Poppins', sans-serif;
 }
 
+.heart{
+	color: red;
+}
+
+.left{
+	margin-left: 5px;
+	color: white;
+}
+
+.align{
+	display: flex;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+	background: url(pic23.svg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
 
 *{
 	margin: 0px ;
@@ -16,12 +36,40 @@ body{
 	text-decoration: none;
 }
 
+.font{
+	display: flex;
+}
+
 .a2{
 	margin-left: 10px;
 }
 
+.a3{
+	text-decoration: none;
+}
+
 .common{
 	font-size: 17px;
+}
+
+.justify{
+	width: 330px;
+	height: 480px;
+	border-radius: 10px;
+	margin-left: 30px;
+	margin-top: 30px;
+}
+
+/*---------------------------------*/
+
+.hr1{
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.hr2{
+	margin-left: 10px;
+	margin-right: 10px;
 }
 
 /*---------------------------------*/
@@ -51,6 +99,11 @@ body{
 	text-align: center;
 	font-weight: 600;
 	border: none;
+	transition: 1s;
+}
+
+.btn a:hover{
+	box-shadow: rgb(200, 128, 256) 0px 7px 80px 0px ;
 }
 
 /*---------------------------------*/
@@ -89,6 +142,32 @@ body{
 	background: #F8F9FC;
 	width: 100%;
 	height: 700px;
+}
+
+.section6{
+	background: #DFEEFF;
+	width: 100%;
+	height: 1300px;
+}
+
+.section7{
+	background: white;
+	width: 100%;
+	height: 750px;
+}
+
+.section8{
+	width: 100%;
+	height: 930px;
+	background: #F8F9FC;
+}
+
+.section9{
+	width: 100%;
+	height: 1190px;
+	background: url(pic26.png);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
 }
 
 /*---------------------------------*/
@@ -215,6 +294,7 @@ body{
 	border: none;
 	margin-left: 30px;
 	margin-right: 30px;
+	transition: 0.3s;
 }
 
 .div214 a:hover{
@@ -296,6 +376,11 @@ body{
 	text-align: center;
 	font-weight: 600;
 	border: none;
+	transition: 1s;
+}
+
+.div611 a:hover{
+	box-shadow: #FFC55C 0px 7px 80px 3px ;
 }
 
 .div612{
@@ -314,12 +399,18 @@ body{
 	text-align: center;
 	font-weight: 600;
 	border: none;
+	transition: 1s;
+}
+
+.div612 a:hover{
+	box-shadow: rgb(200, 128, 256) 0px 7px 80px 3px ;
 }
 
 .div7{
 	width: 580px;
 	height: 380px;
 	margin-left: 50px;
+
 }
 
 .div8{
@@ -358,7 +449,7 @@ body{
 }
 
 .div91:hover, .div92:hover, .div93:hover{
-	box-shadow: rgba(222, 230, 242, 0.5) 0px 0px 5px 5px;
+	box-shadow: rgba(222, 210, 242, 0.5) 0px 0px 25px 5px;
 }
 
 .div911{
@@ -410,6 +501,209 @@ body{
 	display: flex;
 	align-items: center;
 	justify-content: center;
+}
+
+.div011{
+	display: flex;
+}
+
+.div012{
+	margin-left: 100px;
+	width: 1318px;
+}
+
+.div0121{
+	display: flex;
+}
+
+.div01211{
+	width: 322px;
+	height: 500px;
+	transition: 0.6s;
+}
+
+.div01212{
+	width: 322px;
+	height: 500px;
+	margin-left: 10px;
+	transition: 0.6s;
+}
+
+.div01213{
+	width: 322px;
+	height: 500px;
+	margin-left: 10px;
+	transition: 0.6s;
+}
+
+.div01214{
+	width: 322px;
+	height: 500px;
+	margin-left: 10px;
+	transition: 0.6s;
+}
+
+.div0122{
+	display: flex;
+}
+
+.div01221{
+	width: 322px;
+	height: 500px;
+	transition: 0.6s;
+}
+
+.div01222{
+	width: 322px;
+	height: 500px;
+	margin-left: 10px;
+	transition: 0.6s;
+}
+
+.div01211:hover, .div01212:hover, .div01213:hover, .div01214:hover, .div01221:hover, .div01222:hover{
+	font-size: 130%;
+	box-shadow: rgba(222, 210, 242, 8.0) 0px 0px 20px 5px;
+	background: white;
+	width: 350px;
+}
+
+.div013{
+	display: flex;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+}
+
+.div017{
+	width: 1218px;
+	height: 540px;
+	display: flex;
+	margin-left: 150px;
+}
+
+.div014{
+	margin-left: 10px;
+	width: 390px;
+	height: 540px;
+	background: white;
+	border-radius: 10px;
+	box-shadow: lightgray 0px 0px 0px 0.01px;
+	transition: 0.5s;
+}
+
+.div015{
+	margin-left: 15px;
+	width: 390px;
+	height: 540px;
+	background: white;
+	border-radius: 10px;
+	box-shadow: lightgray 0px 0px 0px 0.01px;
+	transition: 0.5s;
+}
+
+.div016{
+	margin-left: 15px;
+	margin-right: 10px;
+	width: 390px;
+	height: 540px;
+	background: white;
+	border-radius: 10px;
+	box-shadow: lightgray 0px 0px 0px 0.01px;
+	transition: 0.5s;
+}
+
+.div014:hover, .div015:hover, .div016:hover{
+	box-shadow: rgba(137, 196, 244, 1) 0px 0px 50px 1px;
+	background: rgb(46, 89, 87);
+	color: white;
+}
+
+.div0191{
+	width: 240px;
+	margin-left: 630px;
+}
+
+.div0191 a{
+	color: black;
+	font-size: 18px;
+	background: #ffc107;
+	border-radius: 10px;
+	padding: 12px;
+	display: block;
+	text-decoration: none;
+	text-align: center;
+	font-weight: 400x;
+	border: none;
+}
+
+.div018{
+	display: flex;
+	width: 1318px;
+	height: 500px;
+	margin-left: 100px;
+}
+
+.div0181{
+	width: 190px;
+	height: 500px;
+	margin-left: 65px;
+}
+
+.div0182{
+	width: 230px;
+	height: 500px;
+	margin-left: 110px;
+}
+
+
+.div0183{
+	width: 200px;
+	height: 500px;
+	margin-left: 70px;
+}
+
+
+.div0184{
+	width: 200px;
+	height: 500px;
+	margin-left: 110px;
+}
+
+.div023{
+	display: flex;
+}
+
+.div021{
+	display: flex;
+}
+
+.div025{
+	width: 1240px;
+	border-left: 2px solid navy ;
+	border-right: 2px solid navy ;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.div020{
+	width: 70px;
+	height: 70px;
+	margin-left: 5px;
+	border: 1px solid black;
+	border-radius: 10px;
+}
+
+.div022{
+	width: 70px;
+	height: 70px;
+	margin-left: 5px;
+	border: 1px solid black;
+	border-radius: 10px;
+	margin-top: 5px;
+}
+
+.div024{
+	margin-left: 10px;
 }
 
 /*---------------------------------*/
@@ -470,6 +764,25 @@ body{
 	font-weight: bold;
 }
 
+.h110{
+	text-align: center;
+	margin-left: 512px;
+	font-size: 50px;
+	font-weight: bold;
+}
+
+.h111{
+	margin-top: 17px;
+	text-align: center;
+}
+
+.h112{
+	color: white;
+	text-align: center;
+	font-size: 50px;
+	font-weight: bold;
+}
+
 .h31{
 	color: #EEAC1F;
 	text-align: center;
@@ -488,6 +801,11 @@ body{
 	color: red;
 }
 
+.h35{
+	color: #EEAC1F;
+	text-align: center;
+}
+
 .h41{
 	color: gray;
 }
@@ -495,7 +813,7 @@ body{
 .h51{
 	font-size: 15px;
 	color: #262729;
-    opacity: 0.6;
+	opacity: 0.6;
 }
 
 .h61{
@@ -554,6 +872,16 @@ body{
 
 .img12{
 	margin-bottom: 800px;
+}
+
+.img13{
+	margin-left: 470px;
+}
+
+.img21{
+	width: 100%;
+	height: 100%;
+	border-radius: 10px;
 }
 
 /*---------------------------------*/
@@ -635,6 +963,19 @@ body{
 	color: grey;
 }
 
+.sp16{
+	color: #bcccfc;
+}
+
+.sp15{
+	color: white;
+	transition: 0.8s;
+}
+
+.sp15:hover{
+	color: #bcccfc;
+}
+
 /*---------------------------------*/
 
 .p1{
@@ -666,6 +1007,56 @@ body{
 .p4:hover{
 	color: lightgreen;
 	font-weight: bold;
+}
+
+.p5{
+	text-align: center;
+	font-weight: bold;
+	font-size: 13px;
+	color: #FF8D00;
+	margin-top: 17px;
+}
+
+.p6{
+	margin-top: 15px;
+	text-align: center;
+	color: gray;
+	font-size: 13px;
+	opacity: 0.7;
+}
+
+.p9{
+	margin-left: 110px;
+	margin-bottom: 10px;
+}
+
+.p10{
+	font-size: 15px;
+	line-height: 26px;
+}
+
+.p11{
+	margin-left: 170px;
+	margin-bottom: 10px;
+}
+
+.p12{
+	font-size: 15px;
+	margin-top: 20px;
+	line-height: 24px;
+	color: #bcccfc;
+}
+
+.p13{
+	margin-top: 50px;
+	margin-left: 25px;
+}
+
+.p14{
+	margin-left: 140px;
+	font-size: 14px;
+	color: white;
+	opacity: 0.7;
 }
 
 /*---------------------------------*/
